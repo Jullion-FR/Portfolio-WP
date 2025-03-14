@@ -1,0 +1,14 @@
+/*
+Theme Name: Neve Child
+Theme URI: https://example.com/neve-child
+Description: Thème enfant basé sur Neve.
+Author: Votre Nom
+Author URI: https://example.com
+Template: neve
+Version: 1.0.0
+*/
+
+/* Importer le style du thème parent */
+@import url("../neve/style.css");
+
+/* Ajoutez ici vos styles personnalisés */
