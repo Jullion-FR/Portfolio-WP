@@ -1,0 +1,47 @@
+/*
+Theme Name: sydney Child
+Theme URI: https://example.com/neve-child
+Description: Thème enfant basé sur sydney.
+Author: Votre Nom
+Author URI: https://example.com
+Template: sydney
+Version: 1.0.0
+*/
+
+/* Importer le style du thème parent */
+@import url("../sydney/style.css");
+
+.portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.portfolio-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.portfolio-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.portfolio-details {
+    list-style: none;
+    padding: 0;
+}
+.portfolio-details li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+.portfolio-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
